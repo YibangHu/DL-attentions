@@ -4,5 +4,5 @@ matplotlib
 seaborn
 datasets
 transformers
-sklearn
+scikit-learn
 jupyter
