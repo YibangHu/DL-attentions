@@ -19,7 +19,7 @@ DL-attentions/
 │   ├── Llama/            # Llama notebook outputs
 │   └── DeBERTa/          # DeBERTa notebook outputs
 ```
-
+All the output can be found in the notebook. We save some figures in the output folder with model name
 
 Install dependencies:
 
@@ -42,9 +42,3 @@ The project uses the following main Python packages:
 Notes:
 - A GPU is recommended for faster model inference, but the notebooks can fall back to CPU if CUDA is not available.
 - Some Llama-family checkpoints may require Hugging Face authentication and model access approval.
-
-
-
-## License
-
-No license file is currently included. Add a license before distributing or reusing this project publicly.
