@@ -12,50 +12,6 @@ DL-attentions/
 └── README.md             # Project documentation
 ```
 
-## Project Goals
-
-This project investigates how attention is distributed inside deep language models. The notebooks are designed to:
-
-- run transformer models on natural language inference data,
-- inspect attention patterns from model layers/heads,
-- compute statistics such as Gini-style concentration measures,
-- visualize attention behavior with plots and heatmaps,
-- compare attention behavior across model families such as DeBERTa and Llama.
-
-## Main Notebooks
-
-### `DeBERTa_GINI.ipynb`
-
-This notebook uses a DeBERTa-v3 model for MNLI-style natural language inference. It loads the `nyu-mll/glue` MNLI validation split, tokenizes premise-hypothesis pairs, runs inference, and supports analysis of model attention distributions.
-
-Expected components include:
-
-- loading `MoritzLaurer/DeBERTa-v3-base-mnli`,
-- evaluating predictions on MNLI validation examples,
-- collecting correct and incorrect predictions,
-- analyzing attention behavior,
-- plotting attention/Gini-related visualizations.
-
-### `Llama.ipynb`
-
-This notebook is intended for Llama-based attention analysis. It can be used to inspect attention behavior in an autoregressive large language model and compare it with encoder-style models such as DeBERTa.
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/YibangHu/DL-attentions.git
-cd DL-attentions
-```
-
-Create and activate a virtual environment:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate      # macOS/Linux
-# .venv\Scripts\activate       # Windows
-```
 
 Install dependencies:
 
